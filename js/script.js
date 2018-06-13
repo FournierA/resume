@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     target = $("#competences").offset().top + $("#competences").innerHeight()/3 - window.innerHeight;
 
-    if($("body").scrollTop() > target && !triggered){
+    if($("html,body").scrollTop() > target && !triggered){
 
       triggered = true;
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
       });
     }
 
-    if($("body").scrollTop() > $("#formations").offset().top + $("#formations").innerHeight() - window.innerHeight && !fTriggered){
+    if($("html,body").scrollTop() > $("#formations").offset().top + $("#formations").innerHeight() - window.innerHeight && !fTriggered){
 
       fTriggered = true;
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
       });
     }
 
-    if($("body").scrollTop() > $("#networks").offset().top + $("#networks").innerHeight()/3 - window.innerHeight && !nTriggered){
+    if($("html,body").scrollTop() > $("#networks").offset().top + $("#networks").innerHeight()/3 - window.innerHeight && !nTriggered){
 
       nTriggered = true;
 
