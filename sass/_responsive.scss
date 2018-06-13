@@ -1,0 +1,36 @@
+@media (max-width: 480px) {
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .page {
+    padding: 83px 15px 0 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .accueil {
+    position: static;
+    width: 100%;
+    transform: translate(0);
+    left: auto;
+    top: auto;
+
+    p {
+      font-size: 1em;
+      text-align: left;
+    }
+  }
+
+  .button-lightbox {
+    position: static;
+    margin: auto;
+    transform: translate(0);
+    left: auto;
+    top: auto;
+    margin: 20px auto;
+  }
+}

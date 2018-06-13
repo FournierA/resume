@@ -1,0 +1,143 @@
+#contact {
+  background: white;
+
+  .inner-container {
+    padding: 30px 20px 60px 20px;
+  }
+
+  h2 .fa-rss {
+    color: #f26522;
+  }
+
+  #form h3 {
+    text-align: center;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid $white;
+  }
+
+  #form {
+    width: 60%;
+
+    #prenom {
+      margin-right: 2%;
+    }
+
+    #nom, #prenom {
+      width: 49%;
+    }
+
+    #sujet, #mail, textarea {
+      width: 100%;
+    }
+
+    #mail, textarea {
+      margin: 10px 0;
+    }
+
+    #mail {
+      max-width: 100%;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    #submitMail {
+      display: block;
+      margin: auto;
+      background: $main-color;
+      color: white;
+      width: 33%;
+      border-radius: 3px;
+      padding: 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 16px;
+      transition: background .5s ease;
+
+      .fa-spinner {
+        margin: 0;
+      }
+
+      &.disabled {
+        &:hover {
+          background: $main-color;
+          cursor: initial;
+        }
+      }
+
+      &.confirm{
+        background: #00b33c;
+        &:hover {
+          background: #00b33c;
+        }
+      }
+
+      &:hover {
+        background: $secondary-color;
+      }
+    }
+  }
+
+  input, textarea {
+    background: white;
+    box-shadow: 0 0 2px $white inset;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 16px;
+
+    &:focus {
+      border-color: $white;
+      box-shadow: 0 0 2px $main-color inset;
+    }
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #networks {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .network {
+      width: 33%;
+      visibility: hidden;
+      text-align: center;
+
+      .fab {
+        margin-top: 18px;
+      }
+
+      .fa-linkedin {
+        color: #0077B5;
+      }
+
+      .fa-viadeo {
+        color: #f49d22;
+      }
+
+      a {
+        padding: 45px 80px;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+
+        &:hover {
+          background: $white;
+        }
+      }
+
+      &.bounceIn {
+        visibility: visible;
+      }
+    }
+  }
+}

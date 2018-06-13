@@ -1,0 +1,55 @@
+#experiences {
+  background: white;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+
+  .inner-container {
+    padding: 60px 20px 15px 20px;
+  }
+
+  h2 .fa-suitcase {
+    color: black;
+  }
+}
+
+.experience{
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $white;
+
+  &:last-child {
+    margin: 0;
+    border-bottom: none;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  p {
+    margin-top: 18px;
+  }
+
+  figure {
+    max-width: 30%;
+    margin-right: 5%;
+
+    img {
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+
+    figcaption {
+      font-style: italic;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  &:nth-child(3) img {
+    width: 70%;
+  }
+}

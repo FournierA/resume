@@ -1,0 +1,59 @@
+#formations {
+  background: white;
+
+  .inner-container {
+    padding: 30px 20px;
+  }
+
+  .slider-formations {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-graduation-cap {
+    color: #e60000;
+  }
+}
+
+.formation {
+  width: 25%;
+  visibility: hidden;
+  font-size: 1.2em;
+
+  &.bounceIn {
+    visibility: visible;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  i {
+    margin: 0;
+  }
+
+  span {
+    margin: 5px 0 18px 0;
+    font-size: 0.8;
+    color: #aaa;
+  }
+
+  .fa-book {
+  color: #663300;
+  }
+
+  .fa-school {
+    color: #6b6b47;
+  }
+
+  .fa-desktop {
+    color: #e68a00;
+  }
+
+  .fa-child {
+    color: #ffcccc;
+  }
+}

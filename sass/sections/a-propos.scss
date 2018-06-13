@@ -1,0 +1,30 @@
+#a-propos {
+  background: $white;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+
+  .inner-container {
+    padding: 60px 20px;
+  }
+
+  ul {
+    padding: 18px 0;
+
+    li:last-child {
+      list-style-type: none;
+    }
+  }
+
+  img {
+    float: right;
+    width: 35%;
+    margin-left: 20px;
+  }
+}
+
+.spoil {
+  background: black;
+
+  &:hover {
+    background: $white;
+  }
+}

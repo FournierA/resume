@@ -1,0 +1,65 @@
+#competences {
+  background: $white;
+  clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0% 100%);
+
+  .inner-container {
+    padding: 60px 20px;
+  }
+
+  h2 {
+
+    .fa-flask {
+      color: #00cc44;
+    }
+  }
+}
+
+.domain {
+  width: 32%;
+  display: inline-block;
+  margin-right: 1.33%;
+  margin-bottom: 15px;
+  vertical-align: top;
+
+  &.last {
+    margin: 0;
+  }
+
+  .competence {
+    margin-bottom: 8px;
+  }
+}
+
+.average {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .loader-container {
+    width: 100px;
+  }
+}
+
+.loader-container {
+  position: relative;
+  border: 2px solid black;
+  height: 30px;
+  width: 100%;
+
+  .loader {
+    position: absolute;
+    width: 0%;
+    top:0;
+    left: 0;
+    height: 100%;
+    background: $main-color;
+    transition: width 2s ease;
+  }
+}
