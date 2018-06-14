@@ -8,6 +8,7 @@
   .slider-formations {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .fa-graduation-cap {
@@ -19,6 +20,7 @@
   width: 25%;
   visibility: hidden;
   font-size: 1.2em;
+  padding: 15px;
 
   &.bounceIn {
     visibility: visible;
@@ -37,7 +39,7 @@
 
   span {
     margin: 5px 0 18px 0;
-    font-size: 0.8;
+    font-size: 0.8em;
     color: #aaa;
   }
 
