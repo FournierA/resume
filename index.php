@@ -11,7 +11,7 @@
       <div class="text">
         <h1>Bienvenue visiteur·se</h1>
         <p>
-          Je me présente, Alexis Fournier, la vingtaine, je suis étudiant en informatique et apprenti.<br/> Actuellement en DUT Informatique à Calais mais en école d'ingénieur à Lille pour la rentrée 2018, je porte un certain amour pour le web, bien que l'informatique en générale est un domaine qui me passionne.
+          Je m'appelle Alexis Fournier, j'ai la vingtaine, et je suis étudiant apprenti en informatique.<br/>Actuellement en DUT Informatique à Calais, j'entre en école d'ingénieur à Lille pour la rentrée 2018. Je porte un certain amour pour le web, bien que l'informatique et les nouvelles technologies sont des domaines qui me passionnent de manière générale.
         </p>
       </div>
     </div>
@@ -20,60 +20,61 @@
   <div id="experiences">
     <div class="inner-container">
       <h2><i class="fas fa-suitcase"></i>Expériences professionnelles</h2>
-      <div class="experience">
 
-        <figure>
-          <img src="img/logo-applicook.svg" alt="Logo d'Applicook" />
-          <figcaption>Logo de l'entreprise Applicook</figcaption>
-        </figure>
+        <div class="experience">
 
-        <div>
-          <h3>Apprenti développeur web et mobile, Applicook</h3>
-          <span>Septembre 2017 - aujourd'hui</span>
-          <p>Missions :</p>
-          <ul>
-            <li>Création de sites Wordpress</li>
-            <li>Maintenance</li>
-            <li>Mise en production</li>
-          </ul>
-          <p>Outils/Langages :</p>
-          <ul>
-            <li>Wordpress</li>
-            <li>HTML/CSS, JS, PHP, SQL</li>
-            <li>Git</li>
-            <li>Tableaux type Trello</li>
-          </ul>
-          <p class="tips">Pour visiter <a href="http://applicook.fr" title="Site web d'Applicook">le site d'Applicook, c'est ici</a>.</p>
+          <figure>
+            <img src="img/logo-applicook.svg" alt="Logo d'Applicook" />
+            <figcaption>Logo de l'entreprise Applicook</figcaption>
+          </figure>
+
+          <div>
+            <h3>Apprenti développeur web et mobile, Applicook</h3>
+            <span>Septembre 2017 - aujourd'hui</span>
+            <p>Missions :</p>
+            <ul>
+              <li>Création de sites Wordpress</li>
+              <li>Maintenance</li>
+              <li>Mise en production</li>
+            </ul>
+            <p>Outils/Langages :</p>
+            <ul>
+              <li>Wordpress</li>
+              <li>HTML/CSS, JS, PHP, SQL</li>
+              <li>Git</li>
+              <li>Tableaux type Trello</li>
+            </ul>
+            <p class="tips">Pour visiter <a href="http://applicook.fr" title="Site web d'Applicook">le site d'Applicook, c'est ici</a>.</p>
+          </div>
+
         </div>
 
-      </div>
+        <div class="experience">
 
-      <div class="experience">
+          <figure>
+            <img src="img/logo-saint-folquin.svg" alt="Logo de la ville Saint-Folquin" />
+            <figcaption>Logo de la ville de St-Folquin</figcaption>
+          </figure>
 
-        <figure>
-          <img src="img/logo-saint-folquin.svg" alt="Logo de la ville Saint-Folquin" />
-          <figcaption>Logo de la ville de St-Folquin</figcaption>
-        </figure>
+          <div>
+            <h3>Animateur, A.L.S.H. de Saint-Folquin</h3>
+            <span>Juillet 2015, 2016 et 2017</span>
 
-        <div>
-          <h3>Animateur, A.L.S.H. de Saint-Folquin</h3>
-          <span>Juillet 2015, 2016 et 2017</span>
+            <p>Missions :</p>
+            <ul>
+              <li>Animation d'un groupe d'enfants (8/9 ans)</li>
+              <li>Préparation d'activités en groupe</li>
+              <li>Mise en place et organisation d'activités en groupe</li>
+            </ul>
+            <p>Gains :</p>
+            <ul>
+              <li>Responsabilité</li>
+              <li>Autonomie</li>
+              <li>Travail de groupe</li>
+            </ul>
+          </div>
 
-          <p>Missions :</p>
-          <ul>
-            <li>Animation d'un groupe d'enfants (8/9 ans)</li>
-            <li>Préparation d'activités en groupe</li>
-            <li>Mise en place et organisation d'activités en groupe</li>
-          </ul>
-          <p>Gains :</p>
-          <ul>
-            <li>Responsabilité</li>
-            <li>Autonomie</li>
-            <li>Travail de groupe</li>
-          </ul>
         </div>
-
-      </div>
 
     </div>
   </div>
@@ -146,7 +147,7 @@
 
         </div>
 
-        <div class="domain last" id="os">
+        <div class="domain" id="os">
 
           <div class="average">
             <h3>OS</h3>

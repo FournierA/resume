@@ -110,6 +110,90 @@
     width: 33%;
   }
 
+  #contact #networks {
+    justify-content: space-around;
+
+    .network {
+      width: auto;;
+
+      a {
+        padding: 15px 35px;
+      }
+    }
+  }
+
+  .banniere {
+    height: auto;
+
+    .text {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 4em;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  #contact #form {
+    width: 90%;
+  }
+
+  #a-propos, #competences {
+    clip-path: polygon(0 0, 100% 3%, 100% 97%, 0% 100%);
+  }
+}
+
+@media (max-width: 480px) {
+
+  #a-propos img {
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+
+    #a-propos, #competences {
+    clip-path: polygon(0 0, 100% 1%, 100% 99%, 0% 100%);
+  }
+
+  .experience {
+    flex-direction: column;
+    align-items: center;
+
+    figure {
+      width: 60%;
+      margin-bottom: 25px;
+    }
+
+    h3, span {
+      text-align: center;
+    }
+
+    span {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .formation {
+    width: 50%;
+  }
+
+  .domain {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .formation {
+    width: 100%;
+  }
+
   #networks {
     flex-direction: column;
     align-items: center;
