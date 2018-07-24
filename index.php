@@ -233,7 +233,7 @@
       <div class="slider-formations">
         <div class="formation">
           <div>
-            <h3>DUT</h3>
+            <h3>DUT Informatique</h3>
             <span>IUT du Littoral Côte d'Opale, Calais</span>
             <i class="fas fa-desktop fa-2x"></i>
           </div>
